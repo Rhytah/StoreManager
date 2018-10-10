@@ -1,0 +1,95 @@
+body{
+    margin:2px;
+    padding: 2px;
+    background: no-repeat url(../images/clip.png);
+
+}
+header 
+{
+    background:rgb(9, 9, 99);
+    width:100%;
+    height: 80px;
+    text-align: right;
+    text-transform:Uppercase;
+    color:goldenrod;
+   
+}
+header nav li
+{
+   
+    display: inline-block;  
+    list-style-type:none;
+    margin: 0;
+    padding: 18px 6px;
+    overflow: hidden;
+    background-color: #132c3f83;
+    font-size:18px;
+
+}
+header img{
+    float: left;
+    height:80px;
+    width: 100px;
+}
+h1{
+    font-family: cursive;
+}
+.container{
+    margin: auto;
+    width: 40%;
+    padding: 2px ;
+    box-sizing: border-box;
+    background-color:rgba(9, 9, 99, 0.63);
+    
+}
+.formBox{
+    padding: 4px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size:24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    align-self: center;
+}
+
+.formBox input
+{
+    margin-bottom: 30px;
+    width: 96%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    color:rgb(19, 6, 8);
+    background-color: rgba(200, 208, 214, 0.438);
+    border-bottom: 2px solid #262626;
+    
+}
+.formBox input [type="text"],
+.formBox input [type="password"]
+{
+    border: none;
+    border-bottom: 2px solid #201420;
+    height: 40px;
+    outline: none;
+    padding: 2px, 2px;
+}
+form{
+    padding: 4px;
+    color:whitesmoke;
+}
+#signup{
+    display:none;
+}
+#login{
+    display:inline-block;
+    font-size:24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#login a{
+    color:rgb(69, 169, 236);
+}
+button{
+    font-family: fantasy;
+    color:rgb(45, 10, 77);
+    font-size:20px;
+}
