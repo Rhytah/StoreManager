@@ -176,8 +176,8 @@ img{
 }
 .container {
     width:100%;
-    height: 400px;
-    margin: auto;
+    height: 100%;
+    margin: 20px 0;
     padding: 2px ;
     color: rgb(216, 151, 12);
     box-sizing: border-box;
