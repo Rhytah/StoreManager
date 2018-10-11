@@ -179,8 +179,9 @@ img{
     height: 400px;
     margin: auto;
     padding: 2px ;
+    color: rgb(216, 151, 12);
     box-sizing: border-box;
-    background-color:rgba(9, 9, 99, 0.63);
+    background-color:rgba(9, 9, 53, 0.705);
 }
 #record{
     display: none;
@@ -201,4 +202,11 @@ button{
 #srecords{
     width:100%;
     background:whitesmoke;
+}
+/* store styles */ 
+#available td{
+    border-bottom: 2px solid whitesmoke;
+    padding: 4px;
+    border-spacing: 6px;
+    column-span: 6;
 }
