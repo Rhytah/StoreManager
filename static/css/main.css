@@ -1,7 +1,11 @@
 body{
     margin:2px;
-    padding: 2px;
-    background: no-repeat url(../images/clip.png);
+    padding: 0;
+    background: no-repeat  url(../images/shh.jpg);
+    color: rgb(9, 9, 78);
+    text-align: center;
+    text-shadow:2px goldenrod;
+    
 
 }
 header 
@@ -26,6 +30,12 @@ header nav li
     font-size:18px;
 
 }
+header nav li::hover{
+    color: antiquewhite;
+}
+header nav li a{
+    color: goldenrod;
+}
 header img{
     float: left;
     height:80px;
@@ -33,6 +43,10 @@ header img{
 }
 h1{
     font-family: cursive;
+}
+footer{
+    background:rgb(9, 9, 99);
+    height: 80px;
 }
 .container{
     margin: auto;
@@ -92,4 +106,66 @@ button{
     font-family: fantasy;
     color:rgb(45, 10, 77);
     font-size:20px;
+}
+
+.panel{
+    padding:20px;
+    max-width:600px;
+    height:600px;
+    
+    /* background: rgba(16, 16, 73, 0.082); */
+}
+.panel form #cart{
+    float: left;
+}
+#sales{
+    float: right;
+}
+table{
+    padding: 10px;
+    border-spacing: 6px;
+    border: 1;
+    font-size: 18px; 
+}
+thead{
+    font-weight:bold;
+    font-size: 20px;
+}
+table td{
+    vertical-align: top;
+    column-span: 4;  
+    font:20px;
+}
+/* #orderedProductsTbl{
+    float: right;
+} */
+table td #orderedProductsTbl{
+    border-bottom: 2px solid blue;
+    padding: 1px;
+    text-align: left;
+    
+    
+}
+td #cart_total{
+    font-weight: bolder;
+    text-decoration-line: underline;  
+}
+.panel-left{
+    float: left;
+    width:30%;
+    padding: 2px;
+    background:rgba(255, 140, 0, 0.815);
+
+}  
+.panel-right{
+    float: right;
+    padding:2px;
+    width:30%;
+    margin:60px;
+    background:rgba(255, 140, 0, 0.678);
+}
+img{
+    height:50px;
+    width:50px;
+    
 }

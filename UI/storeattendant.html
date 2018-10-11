@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thrifty|StoreManager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+    <script src="../static/js/main.js"></script>
+</head>
+<body>
+    <header>
+            <img src="../static/images/logo.png">
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li >Profile</li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Log in as admin</a></li>
+        </nav>
+    </header>
+    <div>
+    
+        <h1>Thrifty </h1>
+        <h2>Store Manager</h2>
+        <h3>Manage sales and product inventory records</h3>
+    </div>
+    
+        <div class="panel-left">
+            <table>
+                <thead>
+                    <tr>
+                        <td >
+                            Products for sale
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Denim
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Denim','Casual Wear',40000)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Duvet
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Duvet','Beddings set with extra covers',70000)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Dress
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Dress','Official wear',15000)"/>
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        Blazer
+                    </td>
+                    <td>
+                        <input type="button" value="Add to cart" onclick="AddtoCart('Blazer','Masape wear',25000)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cami
+                    </td>
+                    <td>
+                        <input type="button" value="Add to cart" onclick="AddtoCart('Cami','Ladies under garment',15000)"/>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+        
+    <div class="panel-right">
+                    <table id="orderedProductsTbl"> 
+                <thead>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            Price
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>         <img src="../static/images/Add_to_Cart.png">
+                        </td>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+</div>
+    
+
+</body>
+</html>
