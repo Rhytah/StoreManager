@@ -68,4 +68,54 @@ function hide(id) {
         document.getElementById("sales").innerHTML=shoppingCart;
 
     }
+//create sale record
+function create_sr(srecords){
+    var table = document.getElementById('srecords');
+    var newrow = table.insertRow(0);
+    var newcell= newcell.insertCell(0);
+    var newtxt = document.createTextNode('new sale record');
+    newcell.appendchild(newtxt);
+}
+
+
+
+
+
+
+
+
+    
+//     var table=document.getElementById("srecords");
+//     var values=new Array(3);
+//     var tr = document.createElement("tr");
+//     var td = document.createElement("td");
+//     var txt = document.createElement("");
+//     var num = document.createElement("");
+//     var mixed= document.getElementById("record")
+//     var tbody= document.createElement("tbody");
+
+//     td.appendChild(num);
+//     td.appendChild(txt);
+//     tr.appendChild(td);
+//     table.appendChild(tr);
+
+//     for (var i=0; i <values.length;i++){
+//         var tr=document.createElement("tr");
+//         for (var j=0; j<values[i].length;j++){
+//             var td = document.createElement("td");
+//             var txt = document.createTextNode(values[i][j]);
+//             td.appendChild(txt);
+//             tr.appendChild(td)
+//         }
+//         tbody.appendChild(tr);
+//     }
+
+// }
+// function totalprice() {
+// var totalFields = document.input.time.length;
+// for(var i=0; i <= totalFields; i++){
+//     document.input.total[i].value = ( document.input.time[i].value * document.input.cost[i].value);
+// }
+// return false; }
+
 
