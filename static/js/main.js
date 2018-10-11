@@ -78,7 +78,10 @@ function create_sr(srecords){
     newrow.appendChild(newcell);
     table.appendChild(newrow)
 }
-
+//success message 
+function createdAlert(){
+    alert("You have created a sale record");
+}
 
 
 
