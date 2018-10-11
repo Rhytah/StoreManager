@@ -74,7 +74,9 @@ function create_sr(srecords){
     var newrow = table.insertRow(0);
     var newcell= newcell.insertCell(0);
     var newtxt = document.createTextNode('new sale record');
-    newcell.appendchild(newtxt);
+    newcell.appendChild(newtxt);
+    newrow.appendChild(newcell);
+    table.appendChild(newrow)
 }
 
 
