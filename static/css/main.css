@@ -155,6 +155,7 @@ td #cart_total{
     width:30%;
     padding: 2px;
     background:rgba(255, 140, 0, 0.815);
+    box-shadow: 1px #201420;
 
 }  
 .panel-right{
@@ -183,7 +184,8 @@ img{
 }
 #record{
     display: none;
-    margin: 8px 4px;
+    /* margin: 8px 4px; */
+    /* padding: 2px 4px; */
     
 }
 #record input, button{
