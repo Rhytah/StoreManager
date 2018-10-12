@@ -10,7 +10,7 @@ body{
 
 header 
 {
-    background:rgba(8, 37, 90, 0.589);
+    background:rgba(4, 53, 109, 0.808);
     width:100%;
     height: 80px;
     text-align: right;
@@ -173,8 +173,9 @@ td #cart_total{
     float: left;
     width:30%;
     padding: 2px;
-    background:rgba(255, 140, 0, 0.815);
+    background:rgba(27, 76, 122, 0.829);
     box-shadow: 1px #201420;
+    color:rgb(224, 174, 60);
 
 }  
 .panel-right{
@@ -182,7 +183,8 @@ td #cart_total{
     padding:2px;
     width:30%;
     /* margin:60px; */
-    background:rgba(255, 140, 0, 0.678);
+    background:rgba(6, 57, 114, 0.678);
+    color:rgb(224, 178, 60);
 }
 img{
     height:50px;
@@ -229,4 +231,3 @@ button{
     border-spacing: 6px;
     column-span: 6;
 }
-/* admin styles */

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Thrifty|StoreManager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/admin.css" />
     <script src="../static/js/main.js"></script>
 </head>
 <body>
@@ -15,8 +15,202 @@
             <div class="pill-nav">
                 <a href="index.html">Home</a>
                 <a href="store.html">Store</a>
-                <a href="storeattendant.html">StoreAttendant</a>
+                <a href="storeattendant.html">Attendant</a>
                 <a class="active">Admin</a>
               </div>
               
     </header>
+    <div class="admin-panel">
+    <div class="tab">
+        <button class="tablink" onclick="opentab(event,'available')">Inventory</button>            
+        <button class="tablink" onclick="opentab(event, 'attendants')">Attendants</button>
+        <button class="tablink" onclick="opentab(event,'salerecords')">Sale Records</button>
+        <button onclick="parent.location ='index.html'">Logout</button>
+
+</div>
+</div>
+<div class="tabcontent" id="available">
+<table>
+    <thead>
+        <tr><td><h4>Available products</h4></td></tr>
+    <tr>
+        <td>Product code</td>
+        <td>Item</td>
+        <td>Details</td>
+        <td>Unit Price</td>
+        <td>Current-stock</td>
+        <td>Initial-stock</td>
+        <td>Mininum allowed stock</td>
+    </tr>
+    </thead>
+    
+    <tr>
+            <td>AP001</td>
+            <td>Shirt</td>
+            <td>Long sleeved Men's shirt</td>
+            <td>35000</td>
+            <td>20</td>
+            <td>50</td>
+            <td>05</td>
+            
+    </tr>
+    <tr>
+            <td>AP002</td>
+            <td>T-shirt</td>
+            <td>Round neck t-shirt</td>
+            <td>12000</td>
+            <td>10</td>
+            <td>30</td>
+            <td>10</td>
+    </tr>
+    <tr>
+            <td>AP045</td>
+            <td>Blazer</td>
+            <td>Masape wear</td>
+            <td>30000</td>
+            <td>05</td> 
+            <td>25</td>
+            <td>5</td>  
+    </tr>
+    <tr>
+            <td>AP046</td>
+            <td>Towel</td>
+            <td>Bathroom sanitaries</td>
+            <td>15000</td>
+            <td>23</td>  
+            <td>100</td>
+            <td>15</td> 
+    </tr>
+    <tr>
+            <td>AP057</td>
+            <td>Facial Cleanser</td>
+            <td>Body/Face care</td>
+            <td>20000</td>
+            <td>13</td>  
+            <td>70</td>
+            <td>10</td> 
+    </tr>
+    <tr>
+            <td>AP102</td>
+            <td>Socks</td>
+            <td>Woolen socks for winter(pair)</td>
+            <td>2000</td>
+            <td>80</td>
+            <td>200</td>
+            <td>20</td>   
+    </tr>
+    <tr>
+            <td>AP105</td>
+            <td>Hankies</td>
+            <td>Outfit accessories</td>
+            <td>1000</td>
+            <td>300</td>
+            <td>150</td>
+            <td>50</td>   
+        </tr>
+        <tr>
+            <td>AP107</td>
+            <td>Scarf</td>
+            <td>Outfit accessories</td>
+            <td>1000</td>
+            <td>300</td>
+            <td>150</td>
+            <td>50</td>   
+        </tr>
+    </table>
+</div>
+<div class="tabcontent" id="attendants">
+    <table >
+        <thead>
+            <tr><td><h4>Thrifty store attendants</h4></td></tr>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Contact</td>
+            <td>Employment Status</td>
+        </tr>
+        </thead>
+        
+        <tr>
+            <td>SA001</td>
+            <td>Salma Smallz</td>
+            <td>smallz@thrifty.com</td>
+            <td>0786420180</td>
+            <td class="active">Active</td>
+                              
+        </tr>
+        <tr>
+            <td>SA002</td>
+            <td>Nadin Tosaka</td>
+            <td>ntos@thrifty.com</td>
+            <td>0782354891</td>
+            <td class="active">Active</td>
+                          
+        </tr>
+        <tr>
+            <td>SA003</td>
+            <td>Lola Matal</td>
+            <td>lolaz@thrifty.com</td>
+            <td>0773569872</td>
+            <td class="active">Active</td>
+                        
+        </tr>
+        <tr>
+            <td>SA004</td>
+            <td>Sebubu Mas</td>
+            <td>smas@thrifty.com</td>
+            <td>0786420180</td>
+            <td class="non-active">Terminated</td>
+                          
+        </tr>
+        <tr>
+            <td>SA005</td>
+            <td>Black Saber</td>
+            <td>saber@thrifty.com</td>
+            <td>0701256879</td>
+            <td class="active">Active</td>
+                          
+        </tr>
+    </table>
+</div>
+        <div class="tabcontent" id="salerecords">
+            <table>
+                <thead>
+                    <tr>
+                        
+                        <td><h4>Created sale records</h4></td></tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Quantity</td>
+                    <td>Unit Price</td>
+                    <td>Total Price</td>
+                    <td>Created by</td>
+                </tr>
+                </thead>
+                
+                <tr>
+                        <td>Duvet</td>
+                        <td>2</td>
+                        <td>80000</td>
+                        <td>160000</td>
+                        <td>Salma Smallz</td>
+                        
+                </tr>
+                <tr>
+                        <td>Blazer</td>
+                        <td>5</td>
+                        <td>25000</td>
+                        <td>125000</td>
+                        <td>Black Saber</td>
+                </tr>
+                <tr>
+                        <td>Denim</td>
+                        <td>3</td>
+                        <td>30000</td>
+                        <td>90000</td>
+                        <td>Lola Matal</td>
+                </tr>
+    
+            </table>
+        </div>
