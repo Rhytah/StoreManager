@@ -19,6 +19,11 @@
             <a href="admin.html">Admin</a>
         </div>
     </header>
+    <div class="profile">
+        <h3><img src="../static/images/profile-vector-hair-6.png">
+        Rhytah</h3>
+    
+    </div>
     <div class="intro">
     
         <h1>Thrifty </h1>
@@ -30,12 +35,16 @@
     
     <!-- <div class="container" id="attendant"> -->
         <div class="panel-left">
-            <table>
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a product">
+            <table id="sale">
                 <thead>
-                    <tr>
+                    <tr >
                         <td >
                             Products for sale
                         </td>
+                        </tr>
+                        <tr>
+            
                     </tr>
                 </thead>
                 <tbody>
@@ -133,6 +142,8 @@
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><button value="submit" onclick="createdAlert();">Create Record</button></td>
+                           
+
             </tr>
         </table>
         <table>

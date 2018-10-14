@@ -178,6 +178,10 @@ td #cart_total{
     color:rgb(224, 174, 60);
 
 }  
+.panel-left input{
+    width:60%;
+    float: right;
+}
 .panel-right{
     float: right;
     padding:2px;
@@ -217,8 +221,12 @@ img{
 #record table td{
     border-bottom:2px solid blue;
 }
+th{
+    font-size:16px;
+}
 button{
     padding: 2px;
+    font-size:16px;
 }
 #srecords{
     width:100%;
@@ -230,4 +238,7 @@ button{
     padding: 4px;
     border-spacing: 6px;
     column-span: 6;
+}
+.profile{
+    float: left;
 }

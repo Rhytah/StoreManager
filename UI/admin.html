@@ -20,15 +20,13 @@
               </div>
               
     </header>
-    <div class="admin-panel">
+  
     <div class="tab">
         <button class="tablink" onclick="opentab(event,'available')">Inventory</button>            
         <button class="tablink" onclick="opentab(event, 'attendants')">Attendants</button>
         <button class="tablink" onclick="opentab(event,'salerecords')">Sale Records</button>
         <button onclick="parent.location ='index.html'">Logout</button>
-
-</div>
-</div>
+    </div>
 <div class="tabcontent" id="available">
 <table>
     <thead>
@@ -120,7 +118,7 @@
     </table>
 </div>
 <div class="tabcontent" id="attendants">
-    <table >
+    <table id="storeattendants">
         <thead>
             <tr><td><h4>Thrifty store attendants</h4></td></tr>
         <tr>
@@ -172,6 +170,14 @@
             <td class="active">Active</td>
                           
         </tr>
+        <tr>
+            <td><input type="" name="Id" placeholder="Unique Id"></td>
+            <td><input type="text" placeholder="Full name"></td>
+            <td><input type="email" placeholder="attendant's email"></td>
+            <td><input type="tel" placeholder="attendant's Contact"></td>
+            <td class="active"><input type="text"></td>
+            <td type="submit" onclick="addRow()">Add</td>
+                          
     </table>
 </div>
         <div class="tabcontent" id="salerecords">
