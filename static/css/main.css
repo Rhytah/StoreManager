@@ -1,7 +1,9 @@
 body{
     margin:2px;
     padding: 0;
-    background: no-repeat  url(../images/shh.jpg);
+    background: url(../images/katya-austin-128622-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     color: rgb(9, 9, 78);
     text-align: center;
     text-shadow:2px goldenrod;
@@ -67,6 +69,7 @@ footer{
     background:rgb(9, 9, 99);
     height: 80px;
 }
+
 .auth{
     margin: auto;
     width: 40%;
@@ -144,16 +147,17 @@ table{
     padding: 10px;
     border-spacing: 6px;
     border: 1;
-    font-size: 18px; 
+    font-size: 16px; 
 }
 thead{
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 table td{
     vertical-align: top;
     column-span: 4;  
-    font:20px;
+    font:16px;
 }
 /* #orderedProductsTbl{
     float: right;
@@ -167,7 +171,7 @@ table td #orderedProductsTbl{
 }
 td #cart_total{
     font-weight: bolder;
-    text-decoration-line: underline;  
+    
 }
 .panel-left{
     float: left;
@@ -175,7 +179,7 @@ td #cart_total{
     padding: 2px;
     background:rgba(27, 76, 122, 0.829);
     box-shadow: 1px #201420;
-    color:rgb(224, 174, 60);
+    color:gold;
 
 }  
 .panel-left input{
@@ -188,7 +192,9 @@ td #cart_total{
     width:30%;
     /* margin:60px; */
     background:rgba(6, 57, 114, 0.678);
-    color:rgb(224, 178, 60);
+    color:gold;
+    text-decoration-color: floralwhite;
+    text-decoration-line: underline;  
 }
 img{
     height:50px;
@@ -204,9 +210,9 @@ img{
     height: 100%;
     margin: 20px 0;
     padding: 2px ;
-    color: rgb(10, 62, 110);
+    color: rgb(8, 49, 87);
     box-sizing: border-box;
-    background-color:rgba(185, 195, 207, 0.801);
+    background-color:rgba(207, 193, 185, 0.801);
 }
 #record{
     display: none;
@@ -234,11 +240,12 @@ button{
 }
 /* store styles */ 
 #available td{
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid orangered;
     padding: 4px;
     border-spacing: 6px;
     column-span: 6;
 }
 .profile{
     float: left;
+    color:gold;
 }

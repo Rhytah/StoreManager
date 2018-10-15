@@ -1,8 +1,10 @@
 body{
     margin:2px;
     padding: 0;
-    background: no-repeat  url(../images/shh.jpg);
-    color: rgb(9, 9, 78);
+    background: url(../images/katya-austin-128622-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: rgb(15, 15, 92);
     text-align: center;
     text-shadow:2px goldenrod;
 
@@ -102,7 +104,12 @@ td{
     padding: 4px;
     border-spacing: 6px;
     column-span: 6;
-    background-color: rgba(0, 128, 128, 0.836);
+    background-color: rgba(186, 212, 212, 0.836);
+    font-size: 16px;
+}
+thead{
+  text-transform: uppercase;
+  font-weight: bold;
 }
 table tr:hover {
     background: #ddd;
@@ -110,7 +117,7 @@ table tr:hover {
   /* Set a style for all buttons */
   button {
     background:rgba(4, 53, 109, 0.808);
-    color:goldenrod;
+    color:rgb(245, 182, 22);
     padding: 14px 20px;
     margin: 4px 0;
     border: none;
