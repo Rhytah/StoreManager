@@ -181,7 +181,7 @@ td #cart_total{
 .panel-left{
     float: left;
     width:30%;
-    margin-block-start: 20px;
+    margin-block-start: 100px;
     padding: 2px;
     background:rgba(27, 76, 122, 0.829);
     box-shadow: 1px #201420;
@@ -196,7 +196,7 @@ td #cart_total{
     float: right;
     padding:2px;
     width:30%;
-    margin-block-start: 20px;
+    margin-block-start: 100px;
     background:rgba(6, 57, 114, 0.678);
     color:gold;
     text-decoration-color: floralwhite;
@@ -229,6 +229,7 @@ img{
 #record input, button{
     font-size:18px;
     width:fit-content;
+    margin-block-start: 10px;
 }
 #record table td{
     padding: 2px;
