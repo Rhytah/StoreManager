@@ -12,39 +12,39 @@
     <header>
             <img src="../static/images/logo.png">
         <div class="pill-nav">
-            <a class="active">Home</a>
+            <button onclick="show('adminLogin'); hide('login');">Log in as admin</button>
+
+            <!-- <a class="active">Home</a>
             <a href="store.html">Store</a>
             <a href="storeattendant.html">Profile</a>
-            <a href="admin.html">Admin</a>
+            <a href="admin.html">Admin</a> -->
         </div>
     </header>
-    <div class="container">
     
+        <div class="auth">
         <h1>Thrifty </h1>
-        <h2>Store Manager</h2>
+        <h1>Store Manager</h1>
         <h3>Manage sales and product inventory records</h3>
   
-    <div class="auth">
+    
         <div class="formBox" id="login">
             <form>
-                <label for="email">Email Address</label>
-                <input type="text" placeholder="email">
+                <label for="email">User ID</label>
+                <input type="text" placeholder="userId">
                 <label for="password">Password</label>
                 <input type="text" placeholder="************">
                 <!-- <button type="submit" >Login</button> -->
-                <a href="store.html">Login</a>
+                <a href="store.html">Login</a>  
             </form>
-            <button onclick="show('signup'); hide('login');">Don't have an account</button>
+           
         </div>
-        <div class="formBox" id="signup">
+        <div class="formBox" id="adminLogin">
             <form>
-                <label for="name">Full Name</label>
-                <input type="text" placeholder="Write your full name">
-                <label for="email">Email Address</label>
-                <input type="text" placeholder="email">
+                <label for="name">Admin Id</label>
+                <input type="text" placeholder="Admin Id">
                 <label for="password">Password</label>
                 <input type="text" placeholder="************">
-                <button type="submit" >Signup</button>
+                <a href="admin.html">Login</a>
             </form>
         </div>
     </div>

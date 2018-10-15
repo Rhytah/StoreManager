@@ -78,6 +78,10 @@ function create_sr(srecords){
     newrow.appendChild(newcell);
     table.appendChild(newrow)
 }
+//user messages
+function userAlert(){
+    alert("Please Log in as admin to gain access!");
+}
 //success message 
 function createdAlert(){
     alert("You have created a sale record");
