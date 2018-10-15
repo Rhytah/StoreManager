@@ -25,6 +25,7 @@
         <button class="tablink" onclick="opentab(event,'available')">Inventory</button>            
         <button class="tablink" onclick="opentab(event, 'attendants')">Attendants</button>
         <button class="tablink" onclick="opentab(event,'salerecords')">Sale Records</button>
+        <button class="tablink" onclick="opentab(event,'modify')">Modify a product</button>
         <button onclick="parent.location ='index.html'">Logout</button>
     </div>
 <div class="tabcontent" id="available">
@@ -234,4 +235,49 @@
                 </tr>
     
             </table>
+        </div>
+        <div class="tabcontent" id="modify">
+            <table>
+                <thead><tr><td>Modify a product</td></tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Select Product code</td>
+                        <td>
+                            <select>
+                                    <option >AP001</option>
+                                    <option >AP002</option>
+                                    <option >AP003</option>
+                                    <option >AP004</option>
+                                  </select>
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>Product name</td>
+                           <td>
+                            <select>
+                                    <option >Denim</option>
+                                    <option >Blazer</option>
+                                    <option >T-shirt</option>
+                                    <option >Socks</option>
+                                </select>
+                            </td>
+                    </tr>
+                    <tr>
+                            <td>Enter Product category</td>
+                            <td>                            
+                            <input type="text" >
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>Update Product Quantity</td>
+                            <td><input type="number" name="product quantity"></td>
+                    </tr>
+                    <tr>
+                            <td>Date modified</td>
+                            <td><input type="date"></td>
+                    </tr>
+                </tbody>
+                <tfoot><tr><td></td><td onclick="modifyAlert();"><strong>Save</strong></td></tr></tfoot>
+
+                </table>
         </div>

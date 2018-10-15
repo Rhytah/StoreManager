@@ -86,7 +86,10 @@ function userAlert(){
 function createdAlert(){
     alert("You have created a sale record");
 }
-
+//modify alert
+function modifyAlert(){
+    alert("You have modified Product details")
+}
 //open tab 
 function opentab(evt, tabName ){
     var t, tabcontent, tablink;
