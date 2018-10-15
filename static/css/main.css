@@ -245,6 +245,10 @@ button{
     width:100%;
     background:whitesmoke;
 }
+tfoot{
+    color:green;
+    font-size: 22px;
+}
 /* store styles */ 
 #available td{
     padding: 4px;
