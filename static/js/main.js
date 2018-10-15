@@ -154,7 +154,10 @@ function addProduct() {
     cell6.innerHTML = "New initial-stock";
     cell7.innerHTML = "Minimum"
 }
-
+// delete product
+function deletePdt(){
+    document.getElementById('products').deleteRow(8);
+}
     
 //     var table=document.getElementById("srecords");
 //     var values=new Array(3);
