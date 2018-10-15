@@ -85,7 +85,7 @@ header img{
     box-shadow:2px solid, green ;
   }
   .tab{
-    padding: 03px;
+    /* padding: 03px; */
     box-sizing: border-box;
     float: left;
   }
@@ -112,10 +112,10 @@ table tr:hover {
     background:rgba(4, 53, 109, 0.808);
     color:goldenrod;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 4px 0;
     border: none;
     cursor: pointer;
-    width: 60%;
+    width: 50%;
     opacity: 0.9;
     font-size: 16px;
     font-style: bold;

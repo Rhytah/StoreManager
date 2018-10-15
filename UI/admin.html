@@ -28,7 +28,7 @@
         <button onclick="parent.location ='index.html'">Logout</button>
     </div>
 <div class="tabcontent" id="available">
-<table>
+<table id="products">
     <thead>
         <tr><td><h4>Available products</h4></td></tr>
     <tr>
@@ -115,6 +115,18 @@
             <td>150</td>
             <td>50</td>   
         </tr>
+        <tr>
+            <td><input type="" placeholder="Product code"></td>
+            <td><input type="text" placeholder="Product "></td>
+            <td><input type="text" placeholder="Product description"></td> 
+            <td><input type="number" placeholder="Unit price"></td>
+            <td><input type="number" placeholder="Initial stock"></td>
+            <td><input type="number" placeholder="Current-stock"></td>
+            <td><input type="number" placeholder="Mininum allowed stock"></td>
+
+            <td><button type="submit" onclick="addProduct()">Add</button></td>
+        </tr>
+                            
     </table>
 </div>
 <div class="tabcontent" id="attendants">
@@ -177,6 +189,7 @@
             <td><input type="tel" placeholder="attendant's Contact"></td>
             <td class="active"><input type="text"></td>
             <td type="submit" onclick="addRow()">Add</td>
+            </tr>
                           
     </table>
 </div>
