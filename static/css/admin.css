@@ -62,30 +62,7 @@ header img{
     border-top: none;
 
   }
-  /* //delete fa styling */
-  .fa-trash{
-    font-size:30px;
-    color:red;
-    padding: 4px;
-    margin: 1px;
-    float:right;
-  }
-  #todos {
-    
-    width: 50%;
-    height: fit-content;
-    align-self: center;
-    margin: 40px;
-    box-shadow:2px solid, green ;
-  }
-  #tododone{
-    
-    width: 50%;
-    height: fit-content;
-    align-self: center;
-    margin: 40px;
-    box-shadow:2px solid, green ;
-  }
+
   .tab{
     /* padding: 03px; */
     box-sizing: border-box;
