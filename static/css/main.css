@@ -154,8 +154,8 @@ button{
 table{
     padding: 10px;
     border-spacing: 6px;
-    border: 1;
-    font-size: 16px; 
+    border-collapse: collapse;
+    font-size: 18px; 
 }
 thead{
     font-weight:bold;
@@ -165,13 +165,11 @@ thead{
 table td{
     vertical-align: top;
     column-span: 4;  
-    font:16px;
+    font:18px;
 }
-/* #orderedProductsTbl{
-    float: right;
-} */
+
 table td #orderedProductsTbl{
-    border-bottom: 2px solid blue;
+   
     padding: 1px;
     text-align: left;
     
@@ -233,7 +231,7 @@ img{
     width:fit-content;
 }
 #record table td{
-    border-bottom:2px solid blue;
+    padding: 2px;
 }
 th{
     font-size:16px;
@@ -248,10 +246,10 @@ button{
 }
 /* store styles */ 
 #available td{
-    border-bottom: 2px solid rgb(17, 0, 255);
     padding: 4px;
     border-spacing: 6px;
     column-span: 6;
+    font-size: 18px;
 }
 .profile{
     float: left;
