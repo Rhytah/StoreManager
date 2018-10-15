@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thrifty|StoreManager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+    <script src="../static/js/main.js"></script>
+</head>
+<body>
+     
+    <header>
+            <img src="../static/images/logo.png">
+        <div class="pill-nav">
+            <a  href="store.html">Store</a>
+            <a class="active">Profile</a>
+            <!-- <a href="admin.html">Admin</a>  -->
+            <a href="index.html" >LogOut</a>
+        </div>
+    </header>
+    <div class="profile">
+        <h3><img src="../static/images/people.png">
+        Attendant:Rhytah</h3>
+    
+    </div>
+
+        <div class="panel-left">
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a product">
+            <table id="sale">
+                <thead>
+                    <tr >
+                        <td >
+                            Products for sale
+                        </td>
+                        </tr>
+                        <tr>
+            
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Denim
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Denim','Casual Wear',40000)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Duvet
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Duvet','Beddings set with extra covers',70000)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Dress
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Dress','Official wear',15000)"/>
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        Blazer
+                    </td>
+                    <td>
+                        <input type="button" value="Add to cart" onclick="AddtoCart('Blazer','Masape wear',25000)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cami
+                    </td>
+                    <td>
+                        <input type="button" value="Add to cart" onclick="AddtoCart('Cami','Ladies under garment',15000)"/>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+        
+    <div class="panel-right">
+                    <table id="orderedProductsTbl"> 
+                    
+                <thead>
+                        <td>Buyer's cart</td>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>Category
+                        </td>
+                        <td>
+                            Price
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>         <img src="../static/images/addtocart.png">
+                        </td>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+</div>
+<button onclick="show('record')">Sales Record</button>
+    <!-- </div> -->
+    <div class="panel" id="record">
+        
+        <table id="srecords">
+            <thead>
+                <tr><td><h3>Sale records</h3></td></tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Quantity</td>
+                    <td>Unit Price</td>
+                    <td>Total Price</td>
+                </tr>
+            </thead>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><button value="submit" onclick="createdAlert();">Create Record</button></td>
+                           
+
+            </tr>
+        </table>
+        <table id="srecords">
+            <thead>
+                <tr><td><h4>Created sale records</h4></td></tr>
+            <tr>
+                <td>Item</td>
+                <td>Quantity</td>
+                <td>Unit Price</td>
+                <td>Total Price</td>
+            </tr>
+            </thead>
+            
+            <tr>
+                    <td>Duvet</td>
+                    <td>2</td>
+                    <td>80000</td>
+                    <td>160000</td>
+                    
+            </tr>
+            <tr>
+                    <td>Blazer</td>
+                    <td>5</td>
+                    <td>25000</td>
+                    <td>125000</td>
+            </tr>
+            <tr>
+                    <td>Denim</td>
+                    <td>3</td>
+                    <td>30000</td>
+                    <td>90000</td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tfoot><tr><td>Total of sold items</td> 
+            <td>10</td>
+            <td>Total sales made(UGX)</td>
+            <td>375000</td></tr></tfoot>
+        </table>
+    </div>
+</body>
+</html>

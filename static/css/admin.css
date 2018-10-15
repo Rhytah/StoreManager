@@ -1,0 +1,115 @@
+body{
+    margin:2px;
+    padding: 0;
+    background: url(../images/katya-austin-128622-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: rgb(15, 15, 92);
+    text-align: center;
+    text-shadow:2px goldenrod;
+
+}
+
+header 
+{
+    background:rgba(4, 53, 109, 0.808);
+    width:100%;
+    height: 80px;
+    text-align: right;
+    text-transform:Uppercase;
+    color:goldenrod;
+   
+}
+header img{
+    float: left;
+    height:80px;
+    width: 100px;
+}
+.pill-nav a {
+    display: inline-block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .pill-nav a:hover {
+    background-color: goldenrod;
+    color: rgb(9, 9, 78);
+  }
+  
+  .pill-nav a.active {
+    background-color: goldenrod;
+    color: white;
+  }
+/* admin styles */
+.tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+  }
+
+  .tab{
+    /* padding: 03px; */
+    box-sizing: border-box;
+    float: left;
+  }
+  #tl{
+    display:none;
+    width: 80%;
+    float: right;
+    height: 50px;
+  }
+  
+  /* tab styles */
+td{
+    border-bottom: 2px solid whitesmoke;
+    padding: 4px;
+    border-spacing: 6px;
+    column-span: 6;
+    background-color: rgba(186, 212, 212, 0.836);
+    font-size: 16px;
+}
+thead{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+table tr:hover {
+    background: #ddd;
+  }
+  /* Set a style for all buttons */
+  button {
+    background:rgba(4, 53, 109, 0.808);
+    color:rgb(245, 182, 22);
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-size: 16px;
+    font-style: bold;
+  }
+  td.active{
+      text-decoration-color: chartreuse;
+      text-decoration-line: underline;
+  }
+  td.non-active{
+      text-decoration-color: crimson;
+      text-decoration-line: underline;
+  }
+  
