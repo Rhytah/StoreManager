@@ -21,7 +21,11 @@
     </header>
     <div class="profile">
         <h3><img src="../static/images/people.png">
-        Attendant:Rhytah</h3>
+        Attendant:Rhytah<br>
+        
+        Time_Active: 7 months<br>
+        Successful sales: 40<br>
+        sales today: 4</h3>
     
     </div>
 
@@ -113,6 +117,31 @@
                     </tr>
                 </tfoot>
             </table>
+            <button type="reset" onclick="hide('checkout');">Checkout</button>
+            <div id="checkout">
+                <table>
+                    <thead><td>Reciept</td></thead>
+                    <tr><td>Item</td>
+                        <td>Quantity</td>
+                        <td>Amount</td>
+                        </tr>
+                    <tr>
+                        <td>Denim</td>
+                        <td>2</td>
+                        <td>80000</td>
+                    </tr>
+                    <tr>
+                        <td>Dress</td>
+                        <td>1</td>
+                        <td>15000</td>
+                    </tr>
+                    <tr><td>Total </td> 
+                        <td>UGX</td>
+                       
+                        <td>95000</td></tr>
+
+                </table>
+            </div>
 </div>
 <button onclick="show('record')">Sales Record</button>
     <!-- </div> -->
@@ -176,5 +205,6 @@
             <td>375000</td></tr></tfoot>
         </table>
     </div>
+    
 </body>
 </html>

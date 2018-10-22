@@ -189,7 +189,7 @@ td #cart_total{
 
 }  
 .panel-left input{
-    width:60%;
+    width:99%;
     float: right;
 }
 .panel-right{
@@ -246,7 +246,7 @@ button{
     background:whitesmoke;
 }
 tfoot{
-    color:green;
+    color:gold;
     font-size: 22px;
 }
 /* store styles */ 
@@ -259,4 +259,8 @@ tfoot{
 .profile{
     float: left;
     color:gold;
+    background:rgb(97, 21, 21);
+}
+#checkout{
+    display: none;
 }
